@@ -37,6 +37,8 @@ async function getUsername() {
       (response) => {
         if (response.success) {
           updateUI(); // Refresh the UI after reporting
+        } else {
+          console.error('Failed to report user');
         }
       }
     );

@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 360px; /* Set a fixed width for the popup */
+  height: 500px; /* Set a fixed height for the popup */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.container {
+  max-width: 100%; /* Ensure the container fits within the popup */
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+#profileInfo p {
+  margin: 0.5rem 0;
+}
+
+#reportButton {
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#reportButton:hover {
+  background-color: #c82333;
+}
